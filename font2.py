@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0"}
-
+#数字转换
 url = "https://www.shixiseng.com/intern/inn_je3rovoyii0q?pcm=pc_SearchList&mxa=asdd.0eqlx1._.$2"
 req = requests.get(url,headers=headers)
 html = req.text
