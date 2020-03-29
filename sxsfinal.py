@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import xlwt
+
 book=xlwt.Workbook(encoding='utf-8',style_compression=0)
 sheet=book.add_sheet('实习僧',cell_overwrite_ok=True)
 sheet.write(0,0,'名称')
